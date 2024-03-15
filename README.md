@@ -15,8 +15,8 @@ This is a solution to the [Launch countdown timer challenge on Frontend Mentor](
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/challenges/launch-countdown-timer-N0XkGfyz-)
-- Live Site URL: [Add live site URL here](https://countdown-timer-one-lemon.vercel.app/)
+- Solution URL: [ solution URL here](https://www.frontendmentor.io/challenges/launch-countdown-timer-N0XkGfyz-)
+- Live Site URL: [ live site URL here](https://countdown-timer-one-lemon.vercel.app/)
 
 ### Built with
 
