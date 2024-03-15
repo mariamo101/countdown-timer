@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@300;400;500;600;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: "Red Hat Text", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  background: #261a2d;
+  background-image: url(./images/bg-stars.svg), url(./images/pattern-hills.svg);
+  background-repeat: no-repeat;
+  background-position: top, bottom;
+  background-size: auto 70%, auto 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+h1 {
+  color: #fff;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 6.136px;
+  line-height: normal;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+p {
+  color: #8385a9;
+  font-size: 7px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 2.959px;
+  line-height: normal;
+  margin-top: 10px;
+  text-align: center;
+  width: 70px;
+}
+
+.flip-card {
+  perspective: 1000px;
+  position: relative;
+  display: inline-flex;
+  flex-direction: column;
+  background: #343650;
+  box-shadow: 0px 5px 0px #191a23;
+  border-radius: 5px;
+  overflow: hidden;
+}
+span {
+  padding-top: 2.4rem;
+  height: 50%;
+  width: 100%;
+  display: flex;
+  position: absolute;
+  color: #fb5e84;
+  text-align: center;
+  font-family: Red Hat Text;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 76px;
+  letter-spacing: -1.08px;
+  align-items: center;
+  justify-content: center;
+}
+
+.top,
+.bottom {
+  border-radius: 4px 4px 0px 0px;
+  color: #fb5e84;
+  height: 37px;
+  padding: 0.25em;
+  text-align: center;
+  width: 70px;
+}
+
+.top {
+  background: black;
+  opacity: 0.1506;
+}
+
+.bottom {
+  border-radius: 0px 0px 4px 4px;
+}
+
+.line {
+  background: #000;
+  height: 0.473px;
+  opacity: 0.253;
+  position: absolute;
+  top: 2.3rem;
+  width: 70px;
+}
+
+.ovalF,
+.ovalS {
+  background: #191a23;
+  border-radius: 50%;
+  height: 12px;
+  position: absolute;
+  top: 2rem;
+  width: 12px;
+}
+.ovalF {
+  right: 67px;
+}
+.ovalS {
+  left: 67px;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+section {
+  display: flex;
+  gap: 1rem;
+}
+
+#icons {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  width: 136px;
+}
+
+svg {
+  color: #8385a9;
+}
+
+svg:hover {
+  color: #fb5e84;
+}
+
+@media (max-width: 699px) {
+  #container {
+    height: 92px;
+    width: 327px;
+  }
+
+  h1 {
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 6.136363506317139px;
+    line-height: 24px;
+    text-align: center;
+    width: 327px;
+  }
+
+  #icons {
+    height: 24px;
+    width: 136px;
+  }
+}
