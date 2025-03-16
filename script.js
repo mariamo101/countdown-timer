@@ -11,7 +11,7 @@ console.log(secondsFlipCardSpan);
 const countDownTimer = setInterval(() => {
   let currentTime = new Date();
 
-  let countDown = new Date("Mar 31,2024 22:55:05");
+  let countDown = new Date("Mar 31,2034 22:55:05");
 
   let intervalTime = countDown - currentTime;
   let intervalDay = Math.floor(intervalTime / 1000 / 60 / 60 / 24);
